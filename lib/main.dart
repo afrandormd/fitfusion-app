@@ -1,7 +1,11 @@
+import 'package:fitfusion_app/config/assets.dart';
+import 'package:fitfusion_app/screen/dashboard.dart';
+// import 'package:fitfusion_app/screen/login.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -9,6 +13,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return GetMaterialApp(
+      theme: ThemeData(
+        primaryColor: Asset.colorPrimaryGreen,
+        scaffoldBackgroundColor: Colors.white,
+      ),
+      debugShowCheckedModeBanner: false,
+      home: const Dashboard(),
+    );
   }
 }
