@@ -1,5 +1,6 @@
 import 'package:fitfusion_app/screen/user/listitem.dart';
 import 'package:flutter/material.dart';
+import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:fitfusion_app/config/assets.dart';
 
 class Home extends StatefulWidget {
@@ -34,16 +35,16 @@ class _HomeState extends State<Home> {
               floating: false,
               title: Text(
                 "FitFusion",
-                style: TextStyle(color: Asset.colorPrimaryGreen, fontWeight: FontWeight.w800),
+                style: TextStyle(color: Asset.colorPrimaryGreen, fontWeight: FontWeight.w800, fontSize: 32.0),
               ),
-              centerTitle: true,
+              centerTitle: false,
               backgroundColor: Asset.colorBackground,
               toolbarHeight: 80.0,
-              leading: IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.menu),
-                color: Asset.colorText,
-              ),
+              // leading: IconButton(
+              //   onPressed: () {},
+              //   icon: Icon(Icons.add_task),
+              //   color: Asset.colorText,
+              // ),
               // gambar header
               flexibleSpace: FlexibleSpaceBar(
                 background: Image.network(
@@ -76,8 +77,9 @@ class _HomeState extends State<Home> {
               actions: [
                 IconButton(
                   onPressed: () {},
-                  icon: Icon(Icons.settings),
+                  icon: Icon(Icons.notifications),
                   color: Asset.colorText,
+                  iconSize: 32.0,
                 ),
               ],
             )
@@ -85,6 +87,9 @@ class _HomeState extends State<Home> {
         },
         // app body
         body: SingleChildScrollView(
+          // -------------- image slider ------------
+
+          // --------------- image slider -----------
           child: Padding(
             padding: const EdgeInsets.only(top: 20.0, right: 20.0, left: 20.0),
             child: Column(
@@ -92,7 +97,7 @@ class _HomeState extends State<Home> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Top Trends",
+                  "Program Pilihan",
                   style: TextStyle(
                     color: Asset.colorPrimaryGreen,
                     fontSize: 24.0,
@@ -121,6 +126,40 @@ class _HomeState extends State<Home> {
           ),
         ),
       ),
+      // ------------ bottom Navigation ----------------
+      bottomNavigationBar: Container(
+        color: Colors.grey.shade800,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
+          child: GNav(
+            backgroundColor: Colors.grey.shade800,
+            color: Colors.white,
+            activeColor: Asset.colorPrimaryGreen,
+            tabBackgroundColor: Colors.black,
+            gap: 8,
+            padding: const EdgeInsets.all(16),
+            tabs: const [
+              GButton(
+                icon: Icons.home,
+                text: "Beranda",
+              ),
+              GButton(
+                icon: Icons.calendar_month_outlined,
+                text: "Program",
+              ),
+              GButton(
+                icon: Icons.sports_gymnastics,
+                text: "Olahraga",
+              ),
+              GButton(
+                icon: Icons.person,
+                text: "Profil",
+              ),
+            ],
+          ),
+        ),
+      ),
+      // ------------ End Bottom Navigation -----------
     );
   }
 }
