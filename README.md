@@ -4,7 +4,7 @@ FitFusion adalah sebuah aplikasi yang bergerak di bidang kesehatan dan kebugaran
 
 Adapun anggota kelompok:
 - Afrando Sharein Ramadhan ( 22312105 )
-- Nurhidayat
+- Nurhidayat (22312099)
 - Tias Haikal Mulyana (22312156)
 - Tirta Rizki Ramadhan (22312163)
 - Umar Al - Faruq
