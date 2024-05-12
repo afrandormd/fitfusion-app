@@ -1,3 +1,4 @@
+import 'package:fitfusion_app/screen/user/home.dart';
 import 'package:flutter/material.dart';
 import 'package:fitfusion_app/config/assets.dart';
 
@@ -116,6 +117,10 @@ class _LoginState extends State<Login> {
                             child: InkWell(
                               onTap: () {
                                 // Implementasi untuk tombol login
+                                Navigator.pushReplacement(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => Home()),
+                                );
                               },
                               borderRadius: BorderRadius.circular(10),
                               child: Padding(
@@ -125,10 +130,7 @@ class _LoginState extends State<Login> {
                                 ),
                                 child: Text(
                                   'LOGIN',
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    color: Colors.black,
-                                  ),
+                                  style: TextStyle(fontSize: 18, color: Colors.black, fontWeight: FontWeight.bold),
                                   textAlign: TextAlign.center,
                                 ),
                               ),
