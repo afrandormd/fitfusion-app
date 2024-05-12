@@ -6,7 +6,7 @@ Adapun anggota kelompok:
 - Afrando Sharein Ramadhan ( 22312105 )
 - Nurhidayat
 - Tias Haikal Mulyana (22312156)
-- Tirta Rizki Ramadhan
+- Tirta Rizki Ramadhan (22312163)
 - Umar Al - Faruq
 
 Berikut ini showcase dari aplikasi yang telah kami buat:
