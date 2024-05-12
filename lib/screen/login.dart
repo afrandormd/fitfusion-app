@@ -1,4 +1,3 @@
-import 'package:fitfusion_app/screen/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:fitfusion_app/config/assets.dart';
 
@@ -117,10 +116,6 @@ class _LoginState extends State<Login> {
                             child: InkWell(
                               onTap: () {
                                 // Implementasi untuk tombol login
-                                Navigator.pushReplacement(
-                                  context,
-                                  MaterialPageRoute(builder: (context) => Dashboard()),
-                                );
                               },
                               borderRadius: BorderRadius.circular(10),
                               child: Padding(

@@ -1,5 +1,6 @@
 import 'package:fitfusion_app/config/assets.dart';
-import 'package:fitfusion_app/screen/dashboard.dart';
+// import 'package:fitfusion_app/screen/dashboard.dart';
+import 'package:fitfusion_app/screen/login.dart';
 // import 'package:fitfusion_app/screen/login.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
       ),
       debugShowCheckedModeBanner: false,
-      home: const Dashboard(),
+      home: const Login(),
     );
   }
 }
