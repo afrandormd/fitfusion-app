@@ -7,6 +7,6 @@ Adapun anggota kelompok:
 - Nurhidayat (22312099)
 - Tias Haikal Mulyana (22312156)
 - Tirta Rizki Ramadhan (22312163)
-- Umar Al - Faruq
+- Umar Al - Faruq (22312115)
 
 Berikut ini showcase dari aplikasi yang telah kami buat:
