@@ -1,16 +1,12 @@
-# fitfusion_app
+# FitFusion Mobile App by BBC Team
 
-A new Flutter project.
+FitFusion adalah sebuah aplikasi yang bergerak di bidang kesehatan dan kebugaran, aplikasi ini merupakan sebuah projek Ujian Tengah Semester mata kuliah Pemrograman Mobile 1 mahasiswa Universitas Teknokrat Indonesia dengan dosen pengampu Reflan, S.kom, M.kom
 
-## Getting Started
+Adapun anggota kelompok:
+- Afrando Sharein Ramadhan ( 22312105 )
+- Nurhidayat
+- Tias Haikal Mulyana (22312156)
+- Tirta Rizki Ramadhan (22312163)
+- Umar Al - Faruq
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Berikut ini showcase dari aplikasi yang telah kami buat:
