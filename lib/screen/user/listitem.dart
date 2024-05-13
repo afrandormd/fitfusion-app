@@ -7,7 +7,7 @@ Widget listItem(String bg, String title, int exercices, int time) {
     margin: EdgeInsets.only(bottom: 10.0),
     decoration: BoxDecoration(
         image: DecorationImage(
-          image: NetworkImage(bg),
+          image: AssetImage(bg),
           fit: BoxFit.cover,
           colorFilter: ColorFilter.mode(Color(0x60212121), BlendMode.darken),
         ),

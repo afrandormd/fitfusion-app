@@ -12,13 +12,14 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   // gambar untuk background header
-  String img_header = "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+  String img_header = "assets/images/img_header.jpg";
 
   // gambar untuk menu workout
   List<String> trainingImage = [
-    "https://plus.unsplash.com/premium_photo-1664109999537-088e7d964da2?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1605296867424-35fc25c9212a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "assets/images/leg-exercices.jpg",
+    "assets/images/push-up-exercices.jpg",
+    "assets/images/pull-up-exercices.jpg",
+    "assets/images/abs-exercices.jpg",
   ];
 
   @override
@@ -47,7 +48,7 @@ class _HomeState extends State<Home> {
               // ),
               // gambar header
               flexibleSpace: FlexibleSpaceBar(
-                background: Image.network(
+                background: Image.asset(
                   img_header,
                   fit: BoxFit.cover,
                   color: Color(0xaa212121),
@@ -120,7 +121,7 @@ class _HomeState extends State<Home> {
                 SizedBox(
                   height: 10,
                 ),
-                listItem(trainingImage[0], "Program Latihan Kaki", 14, 38)
+                listItem(trainingImage[3], "Program Latihan Perut", 14, 38)
               ],
             ),
           ),

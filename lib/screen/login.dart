@@ -70,7 +70,11 @@ class _LoginState extends State<Login> {
                             decoration: InputDecoration(
                               hintText: 'Username',
                               hintStyle: TextStyle(
-                                color: Colors.white,
+                                color: Colors.grey.shade400,
+                              ),
+                              prefixIcon: Icon(
+                                Icons.person,
+                                color: Asset.colorText,
                               ),
                               filled: true,
                               fillColor: Colors.white.withOpacity(0.3), // Transparansi 30%
@@ -91,8 +95,13 @@ class _LoginState extends State<Login> {
                             decoration: InputDecoration(
                               hintText: 'Password',
                               hintStyle: TextStyle(
-                                color: Colors.white,
+                                color: Colors.grey.shade400,
                               ),
+                              prefixIcon: Icon(
+                                Icons.key,
+                                color: Asset.colorText,
+                              ),
+                              suffixIcon: Icon(Icons.remove_red_eye_rounded, color: Asset.colorText),
                               filled: true,
                               fillColor: Colors.white.withOpacity(0.3), // Transparansi 30%
                               border: OutlineInputBorder(
@@ -130,7 +139,7 @@ class _LoginState extends State<Login> {
                                 ),
                                 child: Text(
                                   'LOGIN',
-                                  style: TextStyle(fontSize: 18, color: Colors.black, fontWeight: FontWeight.bold),
+                                  style: TextStyle(fontSize: 18, color: Colors.black, fontWeight: FontWeight.w900),
                                   textAlign: TextAlign.center,
                                 ),
                               ),
