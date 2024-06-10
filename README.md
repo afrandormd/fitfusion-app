@@ -13,6 +13,9 @@ Berikut personil dari tim kami:
 - **Umar Al - Faruq (22312115)**
 
 Berikut ini showcase dari aplikasi yang telah kami buat:  
+## Showcase
+![showcase](https://github.com/afrandormd/fitfusion-app/blob/main/assets/images/showcase/showcase.png?raw=true)
+
 ## Login Screen
 ![showcase1](https://github.com/afrandormd/fitfusion-app/blob/main/assets/images/showcase/showcase1%20(1).png?raw=true)  
 
