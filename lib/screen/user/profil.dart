@@ -36,7 +36,7 @@ class Profil extends StatelessWidget {
               SizedBox(height: 20),
               Center(
                 child: Text(
-                  'Umar Sharein Mulyana Al-Dayat',
+                  'Rizky Umar Sharein Mulyana Al-hidayat',
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500, color: Asset.colorPrimaryGreen),
                 ),
               ),
