@@ -20,6 +20,6 @@ Berikut ini showcase dari aplikasi yang telah kami buat:
 ![showcase2](https://github.com/afrandormd/fitfusion-app/blob/main/assets/images/showcase/showcase1%20(2).png?raw=true)  
 
 ## Dokumentasi Pengerjaan
-
+![Dokumentasi](https://github.com/afrandormd/fitfusion-app/blob/main/assets/images/dokumentasi/Screenshot%20(36).png?raw=true)  
 
 
